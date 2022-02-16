@@ -1,0 +1,190 @@
+/*
+__author__ = "BARABITE-DUBOUCH Bastien"
+__copyright__ = "Copyright (C) 2021 BARABITE-DUBOUCH Bastien"
+__license__ = "Private"
+__version__ = "1"
+ */
+
+main {
+    box-shadow: 0 1px black;
+}
+
+/* MAIN-IMAGE */
+
+#main-image {
+    height: 580px;
+    background: no-repeat center url(../img/background.jpg);
+    background-size: 100%;
+    box-shadow: 0 1px black;
+}
+
+#main-image h2 {
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 10px 10px black;
+}
+
+.bouton-1 {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: #24bcec;
+    font-size: 15px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 1px 1px black;
+}
+
+.bouton-1:hover {
+    color: black;
+    background: #0c3484
+}
+
+/* MON PORTEFOLIO */
+
+#mon-portefolio {
+    height: 290px;
+}
+
+#mon-portefolio ul {
+    padding: 40px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mon-portefolio ul li {
+    margin: 0 2%;
+    width: 500px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+#mon-portefolio h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#mon-portefolio p {
+    margin-bottom: 10px;
+}
+
+#mon-portefolio-1 {
+    background: no-repeat top center url(../img/reactivite.png);
+}
+
+#mon-portefolio-2 {
+    background: no-repeat top center url(../img/gout_contact.png);
+}
+
+#mon-portefolio-3 {
+    background: no-repeat top center url(../img/logo_capacite.png);
+}
+
+/* MON TRAVAIL */
+
+#mon-travail {
+    height: 600px;
+    background: no-repeat top center url(../img/mon_travail_background.jpeg);
+}
+
+.container {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 78%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+
+#mon-travail article {
+    width: 270px;
+    height: 250px;
+    margin: 0 0.5%;
+    padding: 0;
+    float: left;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black;
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#mon-travail p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bouton-2 {
+    color: #0c3484;
+    background-color: #24bcec;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.bouton-2:hover {
+    color: #24bcec;
+    background-color: #0c3484;
+}
+
+/* DIPLÔMES */
+
+#diplomes {
+    padding: 5%;
+    text-align: center;
+    background: no-repeat center url("../img/diplome.jpg");
+    background-size: 100%;
+}
+
+#diplomes_conteneur {
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black;
+}
+
+#diplomes-conteneur h1 {
+    padding: 25px;
+}
+
+.done {
+    text-decoration: line-through
+}
+
+/* CONTACT */
+
+#contact {
+    padding: 2%;
+    background-color: whitesmoke;
+}
+
+#contact fieldset textarea {
+    padding: 25px;
+    width: 80%;
+    height: 200px;
+}

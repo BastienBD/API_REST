@@ -1,0 +1,87 @@
+/*
+__author__ = "BARABITE-DUBOUCH Bastien"
+__copyright__ = "Copyright (C) 2021 BARABITE-DUBOUCH Bastien"
+__license__ = "Private"
+__version__ = "1"
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+    --bg-header-footer: #444;
+    --header-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3 {
+    color: var(--bg-header-footer);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    color: #24bcec;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.blue_point {
+    color: #24bcec;
+}
+
+.black_point {
+    color:black;
+}
+
+.clear {
+    clear: both;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+}

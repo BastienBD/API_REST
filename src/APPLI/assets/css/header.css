@@ -1,0 +1,60 @@
+/*
+__author__ = "BARABITE-DUBOUCH Bastien"
+__copyright__ = "Copyright (C) 2021 BARABITE-DUBOUCH Bastien"
+__license__ = "Private"
+__version__ = "1"
+ */
+
+body.scroll > header {
+    background: #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #141420;
+    box-shadow: 1px 1px 5px #333;
+    z-index: 10;
+}
+
+header div {
+    width: 100%;
+}
+
+header h1 {
+    color: var(--header-color);
+    float: left;
+    margin: 0.35em 0.5em;
+}
+
+header h1 span {
+    color: #24bcec;
+}
+
+header h5 {
+    color: var(--header-color);
+    position: absolute;
+    float: left;
+    margin: 5.75em 2em;
+}
+
+header nav {
+    float: right;
+    margin: 2.85em 1.80em;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: var(--header-color);
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
